@@ -52,3 +52,9 @@ The inference script automatically downloads the trained model weights from Hugg
 
 3. **Configure and Run:**
    Locate the `test_dir` variable in the notebook cells. Update this path to point to your specific image dataset location. Once updated, run all cells to generate the results.
+
+## 📢 Project Presentation
+
+You can view the detailed project presentation, including our approach and architecture, on Canva:
+
+[**View Project Presentation**](https://www.canva.com/design/DAG7-32oerk/6wAM1wupJThA0EhKTQPJoA/edit?utm_content=DAG7-32oerk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
