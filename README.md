@@ -42,9 +42,13 @@ The model is trained to identify and count the following components:
 The inference script automatically downloads the trained model weights from Hugging Face and generates the `submission.csv` file.
 
 ### Running the Inference Script
-1.  Open the `submission.py` (or your main script file).
-2.  Update the `drive_test_dir` variable to point to your image dataset path.
-3.  Run the script:
 
-```python
-python submission.py
+1. **Open in Google Colab:**
+   Download the `Solid_Ai_Hackathon.ipynb` notebook and upload it to Google Colab, or use the link below to open it directly:
+   https://colab.research.google.com/drive/1Nc4WY35AxWso28AF86md57MYCgoZn9cp?usp=sharing
+
+2. **Select GPU Runtime:**
+   In the Colab menu, go to **Runtime > Change runtime type** and select **T4 GPU** to ensure faster processing.
+
+3. **Configure and Run:**
+   Locate the `test_dir` variable in the notebook cells. Update this path to point to your specific image dataset location. Once updated, run all cells to generate the results.
