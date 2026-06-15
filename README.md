@@ -6,25 +6,25 @@
 
 > **Fast & accurate fastener detector using YOLO11m for Solid AI Hackathon IITM. Classifies bolts, nuts, washers & locating pins.**
 
-## 📌 Project Overview
+##  Project Overview
 This repository contains the solution for the **Solid AI Hackathon** at IIT Madras. The system uses a custom-trained **YOLO11m (Medium)** model to detect, classify, and count industrial fasteners in high-resolution images.
 
 The pipeline is optimized for high-volume inference, featuring a local caching mechanism that accelerates processing speed by **10x** on Google Colab T4 GPUs.
 
-## 🛠️ Tech Stack
+##  Tech Stack
 * **Framework:** [Ultralytics YOLO11](https://github.com/ultralytics/ultralytics)
 * **Model Architecture:** YOLO11m
 * **Language:** Python 3.10+
 * **Key Libraries:** `ultralytics`, `pandas`, `huggingface_hub`
 
-## 🎯 Classes Detected
+##  Classes Detected
 The model is trained to identify and count the following components:
 1.  **Bolt**
 2.  **Nut**
 3.  **Washer**
 4.  **Locating Pin**
 
-## 🚀 Installation & Setup
+##  Installation & Setup
 
 1.  **Clone the repository:**
     ```bash
@@ -37,7 +37,7 @@ The model is trained to identify and count the following components:
     pip install ultralytics pandas huggingface_hub
     ```
 
-## 💻 Usage
+##  Usage
 
 The inference script automatically downloads the trained model weights from Hugging Face and generates the `submission.csv` file.
 
@@ -53,8 +53,12 @@ The inference script automatically downloads the trained model weights from Hugg
 3. **Configure and Run:**
    Locate the `test_dir` variable in the notebook cells. Update this path to point to your specific image dataset location. Once updated, run all cells to generate the results.
 
-## 📢 Project Presentation
+##  Project Presentation
 
 You can view the detailed project presentation, including our approach and architecture, on Canva:
 
 [**View Project Presentation**](https://www.canva.com/design/DAG7-32oerk/6wAM1wupJThA0EhKTQPJoA/edit?utm_content=DAG7-32oerk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
+## Certificate  
+
+Uploaded in Main dir
